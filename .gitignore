@@ -3,3 +3,4 @@ azkeys.py
 .vscode/settings.json
 .vscode/c_cpp_properties.json
 .vscode/arduino.json
+__pycache__/azkeys.cpython-37.pyc

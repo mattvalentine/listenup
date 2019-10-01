@@ -50,3 +50,11 @@ zlib                      1.2.11               h1de35cc_3
 ## Azure setup
 
 You'll need to sign up for Azure, but you'll get 5 hours of speech to text per month for free (at this time). So you can try this out quite a bit before it costs you anything, and it's something like a dollar per hour thereafter, so even then it's not that expensive. 
+
+See details here:
+
+https://docs.microsoft.com/en-us/azure/cognitive-services/cognitive-services-apis-create-account?tabs=multiservice%2Cwindows
+
+## Two Versions
+
+You'll see that there are two versions of the python script. One is the initial setup with synchronous STT, and the other attempts to add asynchronous STT and greater interaction through the use of a button.

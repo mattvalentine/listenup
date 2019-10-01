@@ -20,7 +20,13 @@ def speechListener():
     while(True):
         # TODO: switch to ascync continuous 
         # listen for text, wait for silence or timeout (15sec), and process response
-        result = speech_recognizer.recognize_once()
+        # result = speech_recognizer.recognize_once()
+
+        #EventSignal
+
+        print(speech_recognizer.start_continuous_recognition_async().get())
+
+
 
         # if we get something back
         if result.reason == speechsdk.ResultReason.RecognizedSpeech:
