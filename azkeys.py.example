@@ -1,0 +1,2 @@
+# replace these credentials with yours and rename to azkeys.py
+speech_key, service_region = "2b234a765d876a876c9e1638d64531c3", "westus"

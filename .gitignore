@@ -1,0 +1,5 @@
+.DS_Store
+azkeys.py
+.vscode/settings.json
+.vscode/c_cpp_properties.json
+.vscode/arduino.json
