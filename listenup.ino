@@ -105,9 +105,7 @@ void loop() {
   int switchStatus = digitalRead(switchpin);
 
   if(switchStatus != switchlast){
-    if(switchStatus == 1){
-      SerialUSB.println("NOW!");
-    }
+    SerialUSB.println(switchStatus);
     switchlast = switchStatus;
   }
 

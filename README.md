@@ -57,4 +57,6 @@ https://docs.microsoft.com/en-us/azure/cognitive-services/cognitive-services-api
 
 ## Two Versions
 
-You'll see that there are two versions of the python script. One is the initial setup with synchronous STT, and the other attempts to add asynchronous STT and greater interaction through the use of a button.
+You'll see that there are two versions of the python script. One is the initial setup with synchronous STT, and the other adds asynchronous STT and greater interaction through the use of a button. 
+
+In the more interactive version, holding the microphone down (pressing the button below it) trains the system to watch for new keywords. Then when it hears those words it'll alert the user. It uses a scoring system that decays the value of common words to distinguish them from more specific words. 
